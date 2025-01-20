@@ -1,6 +1,6 @@
 # Stackline Assessment Challenge
 
-Link to live web page (hosted on GitHub Pages):
+Link to live web page (hosted on GitHub Pages): https://benformantes.github.io/stackline-oa/
 
 By Ben Formantes
 
