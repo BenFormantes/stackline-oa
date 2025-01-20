@@ -1,13 +1,13 @@
 import React from 'react'
 import Outline from './outline'
 import Home from './components/Home'
-import { HashRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
     <div>
       <Outline>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
