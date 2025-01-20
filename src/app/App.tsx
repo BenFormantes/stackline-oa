@@ -9,7 +9,7 @@ function App() {
       <Outline>
         <Router basename={process.env.PUBLIC_URL}>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/stackline-oa/" element={<Home />} />
           </Routes>
         </Router>
       </Outline>
