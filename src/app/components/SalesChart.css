@@ -1,0 +1,8 @@
+.chart-container {
+  background-color: var(--container-background-color);
+  border-left: var(--thin-vertical-border);
+  border-right: var(--thick-vertical-border);
+  border-top: var(--horizontal-border);
+  border-bottom: var(--horizontal-border);
+  width: 100%;
+}

@@ -1,0 +1,23 @@
+.chart-and-table-container {
+  display: flex;
+  flex-grow: 2;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 150%;
+}
+
+.left-nav {
+  height: 100%;
+  max-width: 400px;
+  margin: 0px 1vw 0px 1vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 10px 10px 15px 2px #eaeaea;
+  flex-grow: 2;
+}
+
+.content-container {
+	display: flex;
+}
