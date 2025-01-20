@@ -1,6 +1,6 @@
 import { AppThunk } from '../store/store'
 import { setError, setLoading, setRetailItem } from '../store/retailItemSlice'
-import payload from '../assets/stackline_frontend_assessment_data_2021.json';
+import payload from '../assets/stackline_frontend_assessment_data_2021.json'
 
 //const baseUrl = 'http://localhost:3000/stackline-endpoint'
 export const fetchData = (): AppThunk => {

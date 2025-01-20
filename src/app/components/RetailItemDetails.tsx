@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useAppSelector } from '../hooks'
 import Tags from './Tags'
-import './RetailItemDetails.css';
+import './RetailItemDetails.css'
 
 export default function RetailItemDetails() {
   const RetailItem = useAppSelector((state) => state.retailItem.retailItem)
@@ -12,11 +12,15 @@ export default function RetailItemDetails() {
   }, [RetailItem?.title])
 
   return (
-    <div className='item-image-container'>
-      <img className='item-image' src={RetailItem?.image} alt={RetailItem?.title} />
+    <div className="item-image-container">
+      <img
+        className="item-image"
+        src={RetailItem?.image}
+        alt={RetailItem?.title}
+      />
       <div>
-        <h2 className='item-title'>{RetailItem?.title}</h2>
-        <p className='item-subtitle'>{RetailItem?.subtitle}</p>
+        <h2 className="item-title">{RetailItem?.title}</h2>
+        <p className="item-subtitle">{RetailItem?.subtitle}</p>
         <Tags tags={RetailItem?.tags} />
       </div>
     </div>

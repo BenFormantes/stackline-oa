@@ -1,5 +1,5 @@
 import React from 'react'
-import './Tags.css';
+import './Tags.css'
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 export default function Tags(props: any) {
